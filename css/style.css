@@ -346,19 +346,9 @@ width: 100%;
 margin-top: 25%;
 margin-left: 10%;
 }
-.counter{
-	background-image: url(../img/bg-img/welcome-bg.png);
-/* color: #fff;
-padding: 44px 0; */
-}
 
-/* .counter h5{
-	line-height: 2;
 
-}
-.counter p{
-	color: #fff;
-} */
+
 /*End counter section */
 /*_________________________________________________________________________*/
 /*Start screanshots section */
@@ -654,10 +644,9 @@ textarea{
 	display: inline-block;
 	background-color: #fb397d;
 	color: #fff;
-	width: 100%;
+	width: 60%;
 text-align: center;
 text-transform: uppercase;
-line-height:2.4 ;
 box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
 
 }
@@ -889,19 +878,35 @@ display: none;
 		margin: 10px 0;
 	
 	 }
-	 /* .main-title{
-		 display: none;
-	 } */
-	 /* .cricle>i{
+	
+		
+}
+
+@media (max-width: 400px){
+	.main-title{
+		display: none;
+	}
+	.header-title a:nth-of-type(2){
+		top: 750px;
+		left: 10px;
+		padding: 16px 50px;
+	}
+	.panner-dis-title{
+		font-size: 40px;
+	}
+
+	.cricle{
+		width: 40px;
+		height: 40px;
+		bottom: 50%;
+		right: 40%;
+		text-align: center;
+	}
+	
+	.cricle>i{
 		color:#fff;
-		font-size: 24px;
+		font-size: 22px;
 	margin-top: 25%;
 	margin-left: 10%;
-	} */
-	/* .footer-content-itam input ,textarea,.submit{
-		width: 240px;
-		
-		
-		} */
-		
+	}
 }
